@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+sm-navigation-rail {
+  display: block;
+  min-height: 100vh;
+  background: #eef1f6; /* light surface */
+}
+
+sm-navigation-rail sm-icon-button {
+  background: #dbe6f5;
+  border-radius: 999px;
+}
+
+sm-navigation-rail sm-button {
+  background: #c7d7ef;
+  border-radius: 999px;
+}
+
+div[class*='center-items'] {
+  background: #e4eaf3;
+}

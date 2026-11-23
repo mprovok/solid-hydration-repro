@@ -1,0 +1,24 @@
+{
+  "name": "solid-hydration-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solid-primitives/focus": "1.0.0",
+    "@solid-primitives/refs": "3.0.0",
+    "@solid-primitives/resize-observer": "4.0.0",
+    "@solid-primitives/scheduled": "2.0.0",
+    "@solid-primitives/transition-group": "2.0.0",
+    "@solidjs/web": "2.0.4",
+    "solid-js": "2.0.4"
+  },
+  "devDependencies": {
+    "@solidjs/vite-plugin": "3.0.1",
+    "vite": "8.3.8"
+  }
+}
