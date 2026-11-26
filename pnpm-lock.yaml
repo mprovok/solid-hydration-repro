@@ -11,16 +11,7 @@ importers:
       '@solid-primitives/focus':
         specifier: 1.0.0
         version: 1.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
-      '@solid-primitives/refs':
-        specifier: 3.0.0
-        version: 3.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
-      '@solid-primitives/resize-observer':
-        specifier: 4.0.0
-        version: 4.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
       '@solid-primitives/scheduled':
-        specifier: 2.0.0
-        version: 2.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
-      '@solid-primitives/transition-group':
         specifier: 2.0.0
         version: 2.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
       '@solidjs/web':
@@ -207,39 +198,10 @@ packages:
       '@solidjs/web': ^2.0.0
       solid-js: ^2.0.0
 
-  '@solid-primitives/refs@3.0.0':
-    resolution: {integrity: sha512-vJaZcoF8MQ47rlhlMZhc+Y7u3U+6FyfhUms1JPTkTq0H8ZClIfw4TTEZBGopMg8fG0veL9cESzD9ZBQMHR4bzg==}
-    peerDependencies:
-      '@solidjs/web': ^2.0.0
-      solid-js: ^2.0.0
-
-  '@solid-primitives/resize-observer@4.0.0':
-    resolution: {integrity: sha512-J+O70F3LL9GCDZ0iUEmL4yZnUOoWgCzyCN9KL2FcqZSNgY0TVj7vUTgAJaL+wOGsz1VReBrRK02b9DxutE9SMA==}
-    peerDependencies:
-      '@solidjs/web': ^2.0.0
-      solid-js: ^2.0.0
-
-  '@solid-primitives/rootless@2.0.0':
-    resolution: {integrity: sha512-+JJAa9xNfrmNpOXC7wGZSBItn1jm8maMZ4TMnJrDfTOUh0nHGw/mk5UMTmBUfkEbCi5ws9TpAsZY6Jtc5MWGTQ==}
-    peerDependencies:
-      '@solidjs/web': ^2.0.0
-      solid-js: ^2.0.0
-
   '@solid-primitives/scheduled@2.0.0':
     resolution: {integrity: sha512-NBfY37wR/rgXRTjf8y1oPUZnENEf3aXYXGfSkc5eWWty1rxKhtBPVoGWX3O9OFkuFsZsiovfBQUXKz/BbjkCqg==}
     peerDependencies:
       '@solidjs/web': ^2.0.0
-      solid-js: ^2.0.0
-
-  '@solid-primitives/static-store@1.0.0':
-    resolution: {integrity: sha512-mvVXrvXpPzNMMuiWF1c8eMvUJrpCyouOlNMAYmwx/7yRW2+Rhmcvnu/gBb3M/4PRdRm/Ncux2v7oUfAp+tuuGA==}
-    peerDependencies:
-      '@solidjs/web': ^2.0.0
-      solid-js: ^2.0.0
-
-  '@solid-primitives/transition-group@2.0.0':
-    resolution: {integrity: sha512-HCstnv2QWHRlGOgvWLnSAElnQr5m3DAWegp+1ZTeRqkbSfTf9oJhMYNw7gJLVO3M0AvySS7VYUgRESH2hy/ArA==}
-    peerDependencies:
       solid-js: ^2.0.0
 
   '@solid-primitives/utils@7.0.1':
@@ -655,44 +617,10 @@ snapshots:
       '@solidjs/web': 2.0.4(solid-js@2.0.4)
       solid-js: 2.0.4
 
-  '@solid-primitives/refs@3.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)':
-    dependencies:
-      '@solid-primitives/utils': 7.0.1(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
-      '@solidjs/web': 2.0.4(solid-js@2.0.4)
-      solid-js: 2.0.4
-
-  '@solid-primitives/resize-observer@4.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)':
-    dependencies:
-      '@solid-primitives/event-listener': 3.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
-      '@solid-primitives/rootless': 2.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
-      '@solid-primitives/static-store': 1.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
-      '@solid-primitives/utils': 7.0.1(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
-      '@solidjs/web': 2.0.4(solid-js@2.0.4)
-      solid-js: 2.0.4
-
-  '@solid-primitives/rootless@2.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)':
-    dependencies:
-      '@solid-primitives/utils': 7.0.1(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
-      '@solidjs/web': 2.0.4(solid-js@2.0.4)
-      solid-js: 2.0.4
-
   '@solid-primitives/scheduled@2.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)':
     dependencies:
       '@solidjs/web': 2.0.4(solid-js@2.0.4)
       solid-js: 2.0.4
-
-  '@solid-primitives/static-store@1.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)':
-    dependencies:
-      '@solid-primitives/utils': 7.0.1(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
-      '@solidjs/web': 2.0.4(solid-js@2.0.4)
-      solid-js: 2.0.4
-
-  '@solid-primitives/transition-group@2.0.0(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)':
-    dependencies:
-      '@solid-primitives/utils': 7.0.1(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)
-      solid-js: 2.0.4
-    transitivePeerDependencies:
-      - '@solidjs/web'
 
   '@solid-primitives/utils@7.0.1(@solidjs/web@2.0.4(solid-js@2.0.4))(solid-js@2.0.4)':
     dependencies:
